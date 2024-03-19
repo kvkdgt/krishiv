@@ -1,0 +1,41 @@
+
+.page-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.page-sub-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #626262;
+}
+
+td svg {
+    height: 20px;
+    fill:#2596be;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
