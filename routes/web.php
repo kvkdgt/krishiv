@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/',[App\Http\Controllers\IndexController::class, 'index']);
+Route::get('/admin/login',[App\Http\Controllers\AdminController::class, 'login'])->name('admin/login');
 Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('admin/dashboard');
 Route::get('/admin/cms',[App\Http\Controllers\AdminController::class, 'cms'])->name('admin/cms');
 Route::get('/admin/blogs',[App\Http\Controllers\AdminController::class, 'blogs'])->name('admin/blogs');
