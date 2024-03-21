@@ -19,6 +19,7 @@ Route::get('/admin/login',[App\Http\Controllers\AdminController::class, 'login']
 Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('admin/dashboard');
 Route::get('/admin/cms',[App\Http\Controllers\AdminController::class, 'cms'])->name('admin/cms');
 Route::get('/admin/blogs',[App\Http\Controllers\AdminController::class, 'blogs'])->name('admin/blogs');
+Route::get('/admin/portfolio',[App\Http\Controllers\AdminController::class, 'portfolio'])->name('admin/portfolio');
 Route::get('/admin/enquiries',[App\Http\Controllers\AdminController::class, 'enquiries'])->name('admin/enquiries');
 
 
