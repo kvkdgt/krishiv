@@ -19,6 +19,11 @@
     color: #fff !important;
     background-color: #2596be;
 }
+.category:hover {
+    color: #fff !important;
+    background-color: #2596be;
+
+}
 .category {
     cursor: pointer;
     color: #2596be;
