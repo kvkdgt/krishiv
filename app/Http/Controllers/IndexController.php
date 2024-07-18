@@ -15,6 +15,10 @@ class IndexController extends Controller
     {
         return view('portfolio');
     }
+    public function contactUs()
+    {
+        return view('contact-us');
+    }
 }
 
 

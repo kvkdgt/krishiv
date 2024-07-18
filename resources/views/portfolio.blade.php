@@ -29,7 +29,7 @@
         </div>
 
         <div class="card">
-            <img src="https://assets.materialup.com/uploads/16aad3c4-34a2-4ff1-8617-7c9c0cf7fefd/preview.jpg" alt="Image 2">
+            <img src="https://cdn.dribbble.com/userupload/9823628/file/original-3f59e5a6ef05efc56ec09fedd03f2d80.png" alt="Image 2">
             <div class="card-content">
                 <h3>Taxi Booking App</h3>
                 <p>Mobile App</p>
@@ -37,7 +37,7 @@
         </div>
 
         <div class="card">
-            <img src="https://api.tino.design/wp-content/uploads/2022/12/4-1024x768.jpg" alt="Image 3">
+            <img src="https://img.freepik.com/premium-vector/food-delivery-app-ui-design_47987-1539.jpg" alt="Image 3">
             <div class="card-content">
                 <h3>Food Delivery App</h3>
                 <p>Mobile App</p>

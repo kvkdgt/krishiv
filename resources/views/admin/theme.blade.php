@@ -48,12 +48,12 @@
                         } else {
                             $blogsClass = 'section-item';
                         }
-                        if (Route::currentRouteName() == 'admin/enquiries') {
+                        if (Route::currentRouteName() == 'admin/enquiries' || Route::currentRouteName() == 'enquiry.view' ) {
                             $enquriesClass = 'section-item active';
                         } else {
                             $enquriesClass = 'section-item';
                         }
-                        if (Route::currentRouteName() == 'admin/portfolio') {
+                        if (Route::currentRouteName() == 'admin/portfolio' || Route::currentRouteName() == 'admin/portfolio/categories' ) {
                             $portfolioClass = 'section-item active';
                         } else {
                             $portfolioClass = 'section-item';
@@ -172,8 +172,11 @@
                         <path d="M32 288c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 288zm0-128c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 160z" />
                     </svg>
                 </div>
+                <div class="right-side-header">
+                <a href="/" class="go-to-site-link" target="_blank"> <span class="go-to-site-btn">Go to Site</span></a>
                 <div class="header-cnotent">
-                    Hey Admin, How are you?
+                    Welcome,  {{Auth::user()->name}}
+                </div>
                 </div>
             </div>
             <div class="main-content">

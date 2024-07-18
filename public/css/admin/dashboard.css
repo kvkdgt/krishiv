@@ -27,6 +27,18 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.card-up-green {
+    background-color: #ecfbea !important;
+    border: 1px solid #0c536c !important;
+}
+.card-up {
+    background-color: #ecf7f9;
+    border: 1px solid #06394b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .card2 {
     width: 100%; /* Adjust the width based on the number of cards you want per row */
     /* margin: 10px; */

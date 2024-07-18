@@ -19,13 +19,13 @@
 <div class="header-hero">
     <header>
         <div class="logo">
-            <img src="{{ URL::asset('imgs/logo.png'); }}" style="width:75%" alt="">
+          <a href="/">  <img src="{{ URL::asset('imgs/logo.png'); }}" style="width:75%" alt=""></a>
         </div>
         <div class="menus">
-            <span class="menu-name"><a href="#services">SERVICES</a></span>
-            <span class="menu-name">PORTFOLIO</span>
-            <span class="menu-name">BLOG</span>
-            <span class="menu-name"><a href="#contact-us">CONTACT US</a></span>
+            <span class="menu-name"><a href="/#services">SERVICES</a></span>
+            <!-- <span class="menu-name"><a href="portfolio">PORTFOLIO</a></span>
+            <span class="menu-name">BLOG</span> -->
+            <span class="menu-name"><a href="contact-us">CONTACT US</a></span>
 
 
         </div>
@@ -52,10 +52,10 @@
             </svg>
         </div>
         <div class="menus-sidebar">
-            <div class="menu-name-sidebar">SERVICES</div>
-            <div class="menu-name-sidebar">PORTFOLIO</div>
-            <div class="menu-name-sidebar">BLOG</div>
-            <div class="menu-name-sidebar">CONTACT US</div>
+        <div class="menu-name-sidebar"><a href="/#services">SERVICES</a></div>
+            <!-- <div class="menu-name-sidebar"> <a href="portfolio">PORTFOLIO</a></div>
+            <div class="menu-name-sidebar">BLOG</div> -->
+            <div class="menu-name-sidebar"><a href="contact-us">CONTACT US</a></div>
 
 
         </div>

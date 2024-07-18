@@ -1,5 +1,5 @@
 header {
-    /* background-color: #2596be; */
+    /* background-color: #06394b; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,8 +10,8 @@ body {
     margin: 0px;
 }
 footer {
-    /* background-image: linear-gradient(160deg, #2596be 0%, #79bedb 100%);
-    background-color: #2596be; */
+    /* background-image: linear-gradient(160deg, #06394b 0%, #79bedb 100%);
+    background-color: #06394b; */
     background: #2a2929;
 }
 .social-media svg {
@@ -53,8 +53,12 @@ footer {
     color: #fff;
 }
 .header-hero {
-    background-image: linear-gradient(160deg, #2596be 0%, #79bedb 100%);
-    background-color: #2596be;
+    background-image: linear-gradient(160deg, #06394b 0%, #79bedb 100%);
+    background-color: #06394b;
+}
+.header-hero-secondary {
+    /* background-image: linear-gradient(160deg, #06394b 0%, #79bedb 100%); */
+    background-color: #06394b;
 }
 .logo {
     width: 20%;
@@ -103,10 +107,14 @@ footer {
 .button-link{
     text-decoration: none;
 }
+.menu-name-sidebar a {
+    text-decoration: none;
+    color: #002840;
+}
 
 .get-quote {
     border-radius: 50px;
-    color: #2596be;
+    color: #06394b;
     text-decoration: none !important;
     background-color: #fff;
     padding: 7px 25px;

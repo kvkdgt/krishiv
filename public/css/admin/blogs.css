@@ -13,9 +13,16 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #2596be;
+    color: #06394b;
 }
-
+.btns-in-portfolio {
+    display: flex;
+    gap: 5px;
+}
+.delete-btn-in-enquiry {
+    background: none;
+    border: none;
+}
 .contact-no a:hover{
     color: #0b4358;
 }
@@ -29,7 +36,7 @@
     height: 16px;
 }
 .btn-for-add {
-    background-color: #2596be;
+    background-color: #06394b;
     padding: 5px 20px;
     cursor: pointer;
     color: #fff;
@@ -65,7 +72,7 @@
 
 td svg {
     height: 20px;
-    fill:#2596be;
+    fill:#06394b;
     cursor: pointer;
 }
 td .delete {

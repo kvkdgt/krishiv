@@ -1,25 +1,46 @@
 @extends('admin/theme')
 @section('content')
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/admin/dashboard.css'); }} ">
-
 <div class="container">
-    <div class="card">
+    <div class="card card-up">
+        <h2 class="label">Total Enquiries</h2>
+        <div class="count">{{ $totalEnquiriesCount }}</div>
+    </div>
+
+    <div class="card card-up">
+        <h2 class="label">Pending Enquiries</h2>
+        <div class="count">{{ $pendingEnquiriesCount }}</div>
+    </div>
+    <div class="card card-up">
+        <h2 class="label">Seen Enquiries</h2>
+        <div class="count">{{ $seenEnquiriesCount }}</div>
+    </div>
+    <div class="card card-up">
+        <h2 class="label">Today's Enquiries</h2>
+        <div class="count">{{ $todayEnquiriesCount }}</div>
+    </div>
+
+    <!-- Repeat similar HTML structure for more cards -->
+
+</div>
+<div class="container">
+    <div class="card card-up-green card-up">
         <h2 class="label">Today's Visitor</h2>
         <div class="count">1234</div>
         <div class="icon">▲</div>
     </div>
 
-    <div class="card">
+    <div class="card card-up-green card-up">
         <h2 class="label">Weekly Visitor</h2>
         <div class="count">5678</div>
         <div class="icon-red">▼</div>
     </div>
-    <div class="card">
+    <div class="card card-up-green card-up">
         <h2 class="label">Monthly Visitor</h2>
         <div class="count">5678</div>
         <div class="icon">▲</div>
     </div>
-    <div class="card">
+    <div class="card card-up-green card-up">
         <h2 class="label">Total Visitor</h2>
         <div class="count">5678</div>
         <div class="icon-red">▼</div>

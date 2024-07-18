@@ -30,18 +30,18 @@ body {
 }
 .active {
     background-color: #fff;
-    color: #2596be;
+    color: #06394b;
     border-radius: 10px;
 }
 .active svg {
-    fill: #2596be;
+    fill: #06394b;
     height: 16px;
 }
 .admin {
     display: flex;
 }
 .left-navbar {
-    background-color: #2596be;
+    background-color: #06394b;
     height: 100vh;
     width: 18%;
 }
@@ -57,7 +57,7 @@ body {
     width: 100%;
 }
 .header {
-    background-color: #2596be;
+    background-color: #06394b;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -84,7 +84,7 @@ body {
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #2596be;
+    background: #06394b;
     border-radius: 10px;
 }
 .section a{
@@ -114,7 +114,7 @@ body {
     justify-content: center;
 }
 .left-navbar-mobile {
-    background-color: #2596be;
+    background-color: #06394b;
     width: 55%;
     position: absolute;
     height: 100vh;
@@ -127,6 +127,20 @@ body {
 .icon svg {
     height: 24px;
     fill: #fff;
+}
+.go-to-site-link{
+    text-decoration: none;
+    color: #06394b;
+}
+.go-to-site-btn {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.right-side-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -7,7 +7,7 @@
     color: #4d4d4d;
 }
 .text-highlight {
-    color: #2596be;
+    color: #06394b;
 }
 .filters {
     margin-top:15px;
@@ -17,18 +17,18 @@
 }
 .category-activated {
     color: #fff !important;
-    background-color: #2596be;
+    background-color: #06394b;
 }
 .category:hover {
     color: #fff !important;
-    background-color: #2596be;
+    background-color: #06394b;
 
 }
 .category {
     cursor: pointer;
-    color: #2596be;
+    color: #06394b;
     border-radius: 30px;
-    border: 1px solid #2596be;
+    border: 1px solid #06394b;
     padding: 5px 12px;
     font-size: 12px;
     font-family: "Poppins", sans-serif;

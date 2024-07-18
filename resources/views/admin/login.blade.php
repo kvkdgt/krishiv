@@ -25,16 +25,29 @@
             <span class="admin-panel">Admin Panel</span>
         </div>
         <div class="right-container">
+            <?php
+            if (session()->has('error')) {
+            ?>
+                <div class="error-msg">
+                    {{session()->get('error')}}
+
+                </div>
+                <br>
+            <?php
+                session()->flush();
+            }
+            ?>
             <span class="signin-text">Sign In</span>
             <div class="login-form">
-                <form action="#">
+                <form action="{{ route('loginCheck') }}" method="post">
+                    @csrf
                     <label for="username">Email</label>
                     <div class="username">
-                        <input type="text" placeholder="Enter your Email">
+                        <input type="email" name="email" placeholder="Enter your Email">
                     </div>
                     <label for="password">Password</label>
                     <div class="username">
-                        <input type="password" placeholder="Enter your Password">
+                        <input type="password" name="password" placeholder="Enter your Password">
                     </div>
                     <div class="submit-btn">
                         <input type="submit" value="Sign In">
