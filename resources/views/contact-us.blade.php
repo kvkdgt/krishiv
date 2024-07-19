@@ -1,5 +1,13 @@
 @extends('secondaryTheme')
 @section('content')
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ03HCNN7R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CZ03HCNN7R');
+</script>
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/home.css'); }} ">
 <div class="main-content-contact-us-form">
     <div class="header-hero-secondary">

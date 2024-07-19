@@ -1,7 +1,14 @@
 @extends('secondaryTheme')
 @section('content')
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/client/portfolio.css'); }} ">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ03HCNN7R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-CZ03HCNN7R');
+</script>
 <div class="portfolio">
     <div class="heading-title">
         Our
