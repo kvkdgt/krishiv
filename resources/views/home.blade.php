@@ -8,6 +8,7 @@
 
   gtag('config', 'G-CZ03HCNN7R');
 </script>
+<title>Krishiv Technologies - Best IT and Software Solutions for your brand or organization</title>
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/home.css'); }} ">
 
 <div class="expertise" id="services">

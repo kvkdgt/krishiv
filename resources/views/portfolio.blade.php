@@ -9,6 +9,7 @@
 
   gtag('config', 'G-CZ03HCNN7R');
 </script>
+<title>Portfolio | Krishiv Technologies</title>
 <div class="portfolio">
     <div class="heading-title">
         Our
