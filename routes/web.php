@@ -18,6 +18,7 @@ use App\Http\Controllers\EnquiryController;
 Route::get('/',[App\Http\Controllers\IndexController::class, 'index']);
 Route::get('/portfolio',[App\Http\Controllers\IndexController::class, 'portfolio'])->name('portfolio');
 Route::get('/contact-us',[App\Http\Controllers\IndexController::class, 'contactUs'])->name('contactUs');
+Route::get('/about-us',[App\Http\Controllers\IndexController::class, 'aboutUs'])->name('aboutUs');
 Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiry.store');
 
 

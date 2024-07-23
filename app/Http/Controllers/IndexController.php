@@ -19,6 +19,11 @@ class IndexController extends Controller
     {
         return view('contact-us');
     }
+
+    public function aboutUs()
+    {
+        return view('about-us');
+    }
 }
 
 

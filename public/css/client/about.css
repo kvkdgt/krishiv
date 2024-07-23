@@ -1,0 +1,125 @@
+.about-us {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main-about-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.heading-why-krishiv h2 {
+    text-align: center;
+    color: #06394b;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+}
+
+.heading-why-krishiv p {
+    text-align: center;
+    color: #002840;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 400;
+    padding: 0px 30px;
+    font-size: 12px;
+    letter-spacing: 0.36px;
+}
+.service-related {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.service-box {
+    background-color: #06394b;
+    width: calc(50% - 40px);
+
+}
+
+.service-box-2 {
+    background-color: #ffffff;
+    width: calc(50% - 40px);
+
+}
+.service-box .title h3 {
+    color: #fff;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 20px;
+
+}
+
+.service-box .title p {
+    color: #fff;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    padding:0px 10px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.service-box-2 .title h3 {
+    color: #06394b;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 20px;
+
+}
+
+.service-box-2 .title p {
+    color: #06394b;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    padding:0px 10px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.how-we-work{
+    width: 100%;
+    /* background-color: #06394b; */
+    display: flex;
+    border-radius: 30px;
+    border: 1px dashed #06394b;
+    margin-top: 20px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.how-we-work .innovation-img img{
+    width: 300px;
+   padding: 10px;
+}
+.innovation-message h3 {
+    color: #06394b;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.innovation-message p {
+    color: #2b2a2a;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+.innovation-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .how-we-work{ 
+      flex-direction: column;
+      width: 80%;
+    }
+    .how-we-work .innovation-img img{
+        width: 200px;
+       padding: 10px;
+    }
+    .how-we-work-parent {
+        display: flex;
+        justify-content: center;
+    }
+  }

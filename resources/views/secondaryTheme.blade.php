@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 </head>
@@ -25,6 +28,7 @@
             <span class="menu-name"><a href="/#services">SERVICES</a></span>
             <!-- <span class="menu-name"> <a href="portfolio">PORTFOLIO</a></span>
             <span class="menu-name">BLOG</span> -->
+            <span class="menu-name"><a href="about-us">ABOUT US</a></span>
             <span class="menu-name"><a href="contact-us">CONTACT US</a></span>
 
 
@@ -48,6 +52,7 @@
         <div class="menu-name-sidebar"><a href="/#services">SERVICES</a></div>
             <!-- <div class="menu-name-sidebar"> <a href="portfolio">PORTFOLIO</a></div>
             <div class="menu-name-sidebar">BLOG</div> -->
+            <div class="menu-name-sidebar"><a href="about-us">ABOUT US</a></div>
             <div class="menu-name-sidebar"><a href="contact-us">CONTACT US</a></div>
             <!-- <div class="menu-name-sidebar">SERVICES</div>
             <div class="menu-name-sidebar">PORTFOLIO</div>
@@ -78,10 +83,10 @@
             <div class="what-we-do">
                 <div class="footer-header">About Krishiv</div>
                 <div class="footer-content">
-                    <a href="#">About us</a>
-                    <a href="#">Portfolio</a>
+                    <a href="about-us">About us</a>
+                    <!-- <a href="#">Portfolio</a>
                     <a href="#">Blog</a>
-                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Terms and Conditions</a> -->
 
 
                 </div>
@@ -90,9 +95,9 @@
             <div class="what-we-do">
                 <!-- <div class="footer-header">&nbsp;</div> -->
                 <div class="footer-content">
-                    <a href="#">Privacy Policy</a>
+                    <!-- <a href="#">Privacy Policy</a>
                     <a href="#">Testimonials</a>
-                    <a href="#">Store</a>
+                    <a href="#">Store</a> -->
 
                 </div>
             </div>

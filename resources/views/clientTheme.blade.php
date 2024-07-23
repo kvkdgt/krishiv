@@ -25,6 +25,7 @@
             <span class="menu-name"><a href="/#services">SERVICES</a></span>
             <!-- <span class="menu-name"><a href="portfolio">PORTFOLIO</a></span>
             <span class="menu-name">BLOG</span> -->
+            <span class="menu-name"><a href="about-us">ABOUT US</a></span>
             <span class="menu-name"><a href="contact-us">CONTACT US</a></span>
 
 
@@ -55,6 +56,7 @@
         <div class="menu-name-sidebar"><a href="/#services">SERVICES</a></div>
             <!-- <div class="menu-name-sidebar"> <a href="portfolio">PORTFOLIO</a></div>
             <div class="menu-name-sidebar">BLOG</div> -->
+            <div class="menu-name-sidebar"><a href="about-us">ABOUT US</a></div>
             <div class="menu-name-sidebar"><a href="contact-us">CONTACT US</a></div>
 
 
@@ -81,10 +83,10 @@
             <div class="what-we-do">
                 <div class="footer-header">About Krishiv</div>
                 <div class="footer-content">
-                    <a href="#">About us</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Terms and Conditions</a>
+                    <a href="about-us">About us</a>
+                    <!-- <a href="#">Portfolio</a> -->
+                    <!-- <a href="#">Blog</a> -->
+                    <!-- <a href="#">Terms and Conditions</a> -->
 
 
                 </div>
@@ -93,9 +95,9 @@
             <div class="what-we-do">
                 <!-- <div class="footer-header">&nbsp;</div> -->
                 <div class="footer-content">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Testimonials</a>
-                    <a href="#">Store</a>
+                    <!-- <a href="#">Privacy Policy</a> -->
+                    <!-- <a href="#">Testimonials</a> -->
+                    <!-- <a href="#">Store</a> -->
 
                 </div>
             </div>
@@ -105,7 +107,7 @@
                 <div class="footer-content">
                     <a href="tel:919265868327">+91 92658 68327</a>
                     <a href="tel:916354958743">+91 63549 58743</a>
-                    <a href="mailto:kvkdgt12345@gmail.com">kvkdgt12345@gmail.com</a>
+                    <a href="mailto:kvkdgt12345@gmail.com">info@krishivtech.in</a>
                     <div class="social-media">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
