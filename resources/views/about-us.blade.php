@@ -14,7 +14,7 @@
 
     gtag('config', 'G-CZ03HCNN7R');
 </script>
-<title>About Us | Krishiv Technologies</title>
+<title>About | Krishiv Technologies</title>
 <div class="main-about-section">
     <div class="about-us">
         <div class="about-us-container">
