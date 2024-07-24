@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EnquiryController;
-
+use App\Http\Controllers\CategoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,4 +33,6 @@ Route::middleware('auth:sanctum')->get('/admin/portfolio/categories',[App\Http\C
 Route::middleware('auth:sanctum')->get('/admin/enquiries',[App\Http\Controllers\AdminController::class, 'enquiries'])->name('admin/enquiries');
 Route::middleware('auth:sanctum')->delete('/enquiries/{id}', [EnquiryController::class, 'delete']);
 Route::middleware('auth:sanctum')->get('/admin/enquiries/{id}', [EnquiryController::class, 'view'])->name('enquiry.view');
-
+Route::middleware('auth:sanctum')->post('/admin/categories/add', [CategoryController::class, 'store'])->name('categories.store');
+Route::middleware('auth:sanctum')->put('/admin/categories/{id}', [CategoryController::class, 'update'])->name('categories.update');
+Route::middleware('auth:sanctum')->delete('/admin/categories/{id}', [CategoryController::class, 'destroy'])->name('categories.destroy');

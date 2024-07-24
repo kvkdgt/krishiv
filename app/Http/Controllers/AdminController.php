@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Enquiry;
+use App\Models\Category;
 use Carbon\Carbon;
 
 
@@ -58,7 +59,7 @@ class AdminController extends Controller
     }
     public function Categories()
     {
-        $categories = [];
+        $categories = Category::get();
         return view('admin/categories', ['categories' => $categories]);
     }
     public function enquiries()
@@ -66,7 +67,4 @@ class AdminController extends Controller
         $enquiries = Enquiry::orderBy('created_at', 'desc')->get();
         return view('admin/enquiries', ['enquiries' => $enquiries]);
     }
-
-  
-
 }

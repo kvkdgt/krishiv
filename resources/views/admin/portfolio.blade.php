@@ -20,7 +20,7 @@
                         </svg> Add New Item</span>
                 </div>
                 <div class="add-btn">
-                    <span class="btn-for-add">Categories</span>
+                   <a style="text-decoration:none" href="{{ route('admin/portfolio/categories') }}"> <span class="btn-for-add">Categories</span> </a>
                 </div>
             </div>
         </div>
