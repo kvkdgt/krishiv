@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Category;
+use App\Models\Portfolio;
 
 class IndexController extends Controller
 {
@@ -13,7 +15,10 @@ class IndexController extends Controller
     }
     public function portfolio()
     {
-        return view('portfolio');
+        $categories = Category::all();
+        $activeCategory = "All";
+        $portfolios = Portfolio::with('category')->where('status', 'Active')->get(); 
+        return view('portfolio', compact('categories', 'portfolios', 'activeCategory'));
     }
     public function contactUs()
     {
@@ -23,6 +28,15 @@ class IndexController extends Controller
     public function aboutUs()
     {
         return view('about-us');
+    }
+
+    public function portfolioByCategory($categoryName)
+    {
+        $category = Category::where('name', $categoryName)->firstOrFail();
+        $portfolios = Portfolio::where('category_id', $category->id)->where('status', 'Active')->get();
+        $categories = Category::all();
+        $activeCategory = $categoryName;
+        return view('portfolio', compact('categories', 'portfolios','activeCategory'));
     }
 }
 

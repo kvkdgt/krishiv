@@ -24,6 +24,22 @@
     background-color: #06394b;
 
 }
+.no-data-img{
+  height: 300px;
+}
+.no-data{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.no-data-text{
+  color: #06394b;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
 .category {
     cursor: pointer;
     color: #06394b;

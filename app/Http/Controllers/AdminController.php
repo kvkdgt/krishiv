@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Enquiry;
 use App\Models\Category;
+use App\Models\Portfolio;
+
 use Carbon\Carbon;
 
 
@@ -55,7 +57,9 @@ class AdminController extends Controller
     }
     public function portfolio()
     {
-        return view('admin/portfolio');
+        $categories = Category::all();
+        $portfolios = Portfolio::with('category')->get(); 
+        return view('admin/portfolio', compact('categories', 'portfolios'));
     }
     public function Categories()
     {

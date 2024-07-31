@@ -23,8 +23,8 @@
         </div>
         <div class="menus">
             <span class="menu-name"><a href="/#services">SERVICES</a></span>
-            <!-- <span class="menu-name"><a href="portfolio">PORTFOLIO</a></span>
-            <span class="menu-name">BLOG</span> -->
+        <span class="menu-name"><a href="portfolio">PORTFOLIO</a></span>
+              <!--   <span class="menu-name">BLOG</span> -->
             <span class="menu-name"><a href="about-us">ABOUT US</a></span>
             <span class="menu-name"><a href="contact-us">CONTACT US</a></span>
 
@@ -54,8 +54,8 @@
         </div>
         <div class="menus-sidebar">
         <div class="menu-name-sidebar"><a href="/#services">SERVICES</a></div>
-            <!-- <div class="menu-name-sidebar"> <a href="portfolio">PORTFOLIO</a></div>
-            <div class="menu-name-sidebar">BLOG</div> -->
+           <div class="menu-name-sidebar"> <a href="portfolio">PORTFOLIO</a></div>
+            <!--  <div class="menu-name-sidebar">BLOG</div> -->
             <div class="menu-name-sidebar"><a href="about-us">ABOUT US</a></div>
             <div class="menu-name-sidebar"><a href="contact-us">CONTACT US</a></div>
 
@@ -84,7 +84,7 @@
                 <div class="footer-header">About Krishiv</div>
                 <div class="footer-content">
                     <a href="about-us">About us</a>
-                    <!-- <a href="#">Portfolio</a> -->
+                    <a href="portfolio">Portfolio</a>
                     <!-- <a href="#">Blog</a> -->
                     <!-- <a href="#">Terms and Conditions</a> -->
 
