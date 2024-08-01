@@ -17,6 +17,7 @@ class PortfolioController extends Controller
             'thumbnail' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'images' => 'nullable',
             'description' => 'required|string',
+            'technologies_used'=>'nullable'
         ]);
 
         if ($request->hasFile('thumbnail')) {
@@ -68,6 +69,7 @@ class PortfolioController extends Controller
         $portfolio->category_id = $request->category_id;
         $portfolio->status = $request->status;
         $portfolio->description = $request->description;
+        $portfolio->technologies_used = $request->technologies_used;
 
         // Handle thumbnail upload
         // Handle thumbnail upload
@@ -129,6 +131,7 @@ class PortfolioController extends Controller
             'description' => $portfolio->description,
             'thumbnail' => $portfolio->thumbnail ? asset('thumbnails/' . $portfolio->thumbnail) : null,
             'images' => $imagesWithBaseUrl,
+            'technologies_used'=>$portfolio->technologies_used,
         ];
 
         // Return the data as JSON

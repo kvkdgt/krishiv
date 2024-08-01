@@ -20,6 +20,7 @@ use App\Http\Controllers\PortfolioController;
 Route::get('/',[App\Http\Controllers\IndexController::class, 'index']);
 Route::get('/portfolio',[App\Http\Controllers\IndexController::class, 'portfolio'])->name('portfolio');
 Route::get('/portfolio/of/{category}', [App\Http\Controllers\IndexController::class, 'portfolioByCategory'])->name('portfolio.by_category');
+Route::get('/portfolio/{product}', [App\Http\Controllers\IndexController::class, 'productDetail'])->name('portfolio.detail');
 Route::get('/contact-us',[App\Http\Controllers\IndexController::class, 'contactUs'])->name('contactUs');
 Route::get('/about-us',[App\Http\Controllers\IndexController::class, 'aboutUs'])->name('aboutUs');
 Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiry.store');

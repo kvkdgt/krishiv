@@ -101,6 +101,11 @@
                 </div>
             </div>
             <div class="form-group">
+                <label for="images">Technologies Used</label>
+                <input type="text" id="technologies_used" name="technologies_used" placeholder="Enter multiple technologies used, using comma seprator(,)." required>
+                <div id="imagesPreview" class="preview"></div>
+            </div>
+            <div class="form-group">
                 <label for="thumbnail">Product Thumbnail</label>
                 <div class="custom-file-upload">
                     <input type="file" id="thumbnail" name="thumbnail" accept="image/*" required>
@@ -159,6 +164,11 @@
                     <label for="editDescription">Product Description</label>
                     <textarea id="editDescription" name="description" placeholder="Enter product description" required></textarea>
                 </div>
+            </div>
+            <div class="form-group">
+                <label for="images">Technologies Used</label>
+                <input type="text" id="edit_technologies_used" name="technologies_used" placeholder="Enter multiple technologies used, using comma seprator(,)." required>
+                <div id="imagesPreview" class="preview"></div>
             </div>
             <div class="form-group">
                 <label for="editThumbnail">Product Thumbnail</label>
@@ -223,6 +233,9 @@ function openDeleteCategoryModal(id) {
                 document.getElementById('editCategory_id').value = data.category_id;
                 document.getElementById('editStatus').value = data.status;
                 document.getElementById('editDescription').value = data.description;
+                document.getElementById('edit_technologies_used').value = data.technologies_used;
+
+                
 
                 // Set preview images if needed
                 document.getElementById('editThumbnailPreview').innerHTML = data.thumbnail ? `<img src="${data.thumbnail}" alt="Thumbnail Preview">` : '';

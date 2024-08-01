@@ -16,6 +16,7 @@ class Portfolio extends Model
         'thumbnail',
         'images',
         'description',
+        'technologies_used'
     ];
 
     protected $casts = [

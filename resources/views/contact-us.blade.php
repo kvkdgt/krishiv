@@ -8,6 +8,8 @@
 
   gtag('config', 'G-CZ03HCNN7R');
 </script>
+<title>Contact | by Krishiv Technologies</title>
+
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/home.css'); }} ">
 <div class="main-content-contact-us-form">
     <div class="header-hero-secondary">

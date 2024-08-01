@@ -38,6 +38,13 @@ class IndexController extends Controller
         $activeCategory = $categoryName;
         return view('portfolio', compact('categories', 'portfolios','activeCategory'));
     }
+
+    public function productDetail($product)
+    {
+        $portfolio = Portfolio::with('category')->where('name', $product)->firstOrFail();
+        return view('portfolio-detail', compact('portfolio'));
+
+    }
 }
 
 
