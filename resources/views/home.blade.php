@@ -10,7 +10,64 @@
 </script>
 <title>Krishiv Technologies - Best IT and Software Solutions for your brand or organization</title>
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/home.css'); }} ">
+<style>
+    .hero-new {
+    background-color: #F5F7FA;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    width: 100%;
+    
+}
 
+
+.left-side-hero-data, .right-side-hero-data {
+    width: 50%;
+}
+.left-side-hero-data ul {
+    color: #2596BE;
+    font-size: 20px;
+}
+.left-side-hero-data h1 {
+    color: #4d4d4d;
+    margin: 0px;
+}
+.left-side-hero-data p {
+    color: #4d4d4d;
+    margin-top: 30px;
+}
+.left-side-hero-data h2 {
+    color: #4d4d4d;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: 400;
+    color: #2596BE; 
+}
+.right-side-hero-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side-hero-data img {
+    height: 400px;
+   
+}
+@media (max-width: 767px) {
+    .hero-new {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .left-side-hero-data, .right-side-hero-data  {
+        width: 80%;
+    }
+    .right-side-hero-data img {
+    height: 300px;
+   
+}
+}
+</style>
 <div class="expertise" id="services">
     <div class="heading-title">
         Our
@@ -138,6 +195,34 @@
 
     </div>
 </div>
+
+
+<div class="hero-new">
+      <div class="left-side-hero-data">
+        <h1 class="hero-header">Empowering Your Digital Journey</h1>
+        <h2 class="hero-sub-header">
+          Web Development | Mobile Apps | Custom Software Solutions
+        </h2>
+        <p>
+          At Krishiv, we provide tailored web and mobile development
+          solutions designed to empower your business and elevate your digital
+          presence. Our expert team leverages cutting-edge technology and
+          innovative strategies to create custom solutions that drive growth,
+          enhance user experience, and ensure your business stands out in the
+          digital landscape.
+        </p>
+        <!-- <ul>
+          <li>Innovative Solutions</li>
+          <li>Seamless Integration</li>
+          <li>Exceptional Results</li>
+        </ul> -->
+      </div>
+      <div class="right-side-hero-data">
+        <img src="{{ URL::asset('imgs/system.png'); }}" alt="" />
+      </div>
+    </div>
+
+
 <div class="industry-served expertise">
     <div class="heading-title">
         Industry
@@ -254,6 +339,8 @@
     </div>
 </div>
 
+
+
 <div class="contact-us-banner">
     <div class="text">
         <div class="build-header">Let's build for you</div>
@@ -350,6 +437,8 @@
         </div>
     </div>
 </div>
+
+
 
 <!-- <div class="expertise" id="contact-us">
     <div class="heading-title">
